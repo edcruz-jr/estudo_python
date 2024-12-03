@@ -26,7 +26,7 @@ print(type(series_time)) #Verificando o tipo
 
 #3-Selecionar times por índice
 print(series_time["Real Madrid"])
-print(series_time.iloc[2])
+print(series_time.iloc[2]) #Verificar os valores pelo índice (Lembrando que ele inicia por 0)
 
 #4-Selecionando por fatiamento
 print(f"\n{series_time["Barcelona":"Juventus"]}") #Fatiamento é inclusivo
